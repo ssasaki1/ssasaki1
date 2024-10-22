@@ -1,0 +1,96 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* 全体の基本スタイル */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFF4E6; /* クリーム色の背景 */
+  color: #333; /* テキストは読みやすい濃いめの色 */
+  margin: 0;
+  padding: 0;
+}
+
+/* ナビゲーションバー */
+.navbar {
+  background-color: #FFCC80; /* 明るいオレンジ */
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #FF5722; /* 濃いオレンジ */
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar .navbar-brand:hover {
+  color: #FF5722; /* ホバー時に濃いオレンジ */
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: #FFE0B2; /* 明るいピーチカラー */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 軽いシャドウで立体感を出す */
+}
+
+/* カード */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* カードのドロップシャドウ */
+  border: none;
+  background-color: #FFF8E1; /* 薄いクリーム色 */
+}
+
+.card-title {
+  color: #FF6F00; /* オレンジ色のタイトル */
+}
+
+.card-body {
+  background-color: #FFFDE7; /* 非常に薄い黄色 */
+}
+
+/* ボタン */
+.btn-primary {
+  background-color: #FF7043;
+  border-color: #FF7043;
+}
+
+.btn-primary:hover {
+  background-color: #FF5722;
+  border-color: #FF5722;
+}
+
+/* フッター */
+footer {
+  background-color: #FFCC80;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #FF5722;
+}
+
+/* 開発スキルリスト */
+.list-group-item {
+  background-color: #FFF8E1; /* リストアイテムの背景を明るいクリーム色に */
+  border: 1px solid #FFCC80;
+}
+
+/* アチーブメントページ用のスタイル */
+.list-group-item-achievements {
+  background-color: #FFF8E1;
+  border: 1px solid #FFCC80;
+  margin-bottom: 10px;
+}
